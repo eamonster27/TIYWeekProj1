@@ -1,0 +1,191 @@
+/*
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+
+Header/Nav: always fixed to the top.
+
+Nav links at the top should link to the corresponding pages in your project directory.
+
+The currently visited page's navigation link should have an "active" state.
+
+Use Flexbox for grid level layout.
+
+The text "dedicated environment" in the first paragraph of the about page is an inline link. It should link a user to the "Facilities" section below when clicked.
+
+The newsletter signup page has a minimum height of the viewport's height.
+
+The newsletter signup module is centered horizontally and vertically on the page.
+
+The "Name" input field on the newsletter page should have the type text.
+
+The "Email" input field on the newsletter page should have the type email.
+*/
+* {
+  margin: 0;
+}
+
+main {
+  background-color: #F2F1E8;
+}
+
+.heading {
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-family: cursive;
+}
+
+.main-heading {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.sub-heading {
+  font-weight: lighter;
+}
+
+.site-header {
+  background-color: #FFFFFF;
+  height: 25px;
+	padding: 10px;
+}
+
+.vase-logo {
+  /*logo item*/
+	position: absolute;
+	left: 1%;
+  top: 1%;
+	height: 25px;
+	width: 25px;
+	/*adjacent values*/
+	margin: 5px;
+	z-index: 1;
+	background-image: url("../data/images/bent-creek-logo.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.nav-items {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.single-item > a {
+  text-decoration: underline;
+  color: black;
+}
+
+.img-cards {
+  display: flex;
+  flex-flow: wrap column;
+}
+
+.img-cards-row-1 {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.img-cards-row-2 {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+}
+
+.single-img-card > a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  vertical-align: text-bottom;
+}
+
+
+#endless {
+  background-image: url("../data/images/product-1.jpg");
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  width: 59%;
+  height: 200px;
+
+}
+
+#sets {
+  background-image: url("../data/images/product-2.jpg");
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  width: 19%;
+  height: 200px;
+
+}
+
+#textures {
+  background-image: url("../data/images/product-3.jpg");
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  width: 19%;
+  height: 200px;
+
+}
+
+#tea {
+  background-image: url("../data/images/product-4.jpg");
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  width: 24%;
+  height: 150px;
+}
+
+#jars {
+  background-image: url("../data/images/product-5.jpg");
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  width: 24%;
+  height: 150px;
+}
+
+#wasabi {
+  background-image: url("../data/images/product-6.jpg");
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  width: 24%;
+  height: 150px;
+}
+
+#sippin {
+  background-image: url("../data/images/product-7.jpg");
+  background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  width: 24%;
+  height: 150px;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  text-align: left;
+  height: 50px;
+	padding: 10px;
+  margin-top: 10px;
+}
