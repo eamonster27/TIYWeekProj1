@@ -33,12 +33,16 @@ The "Name" input field on the newsletter page should have the type text.
 The "Email" input field on the newsletter page should have the type email.
 */
 * {
-  margin: 0;
+  margin: 0px;
 }
 
 main {
   background-color: #F2F1E8;
 }
+
+/*index.html*/
+/*index.html*/
+/*index.html*/
 
 .heading {
   text-align: center;
@@ -48,7 +52,8 @@ main {
 
 .main-heading {
   font-weight: bold;
-  font-size: 60px;
+  font-size: 40px;
+  text-align: center;
 }
 
 .sub-heading {
@@ -191,4 +196,113 @@ footer {
 	padding: 10px;
   margin-top: 10px;
   vertical-align: bottom;
+}
+
+/*about.html*/
+/*about.html*/
+/*about.html*/
+
+.content-before-img {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 0px 100px 0px 100px;
+}
+.content-before-img > p {
+  padding: 20px 0px 20px 0px;
+}
+
+.history {
+  padding: 20px 0px 20px 0px;
+}
+
+#birdhouse-img {
+  background-image: url("../data/images/birdhouse.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.central-img > h2 {
+  text-align: center;
+  transform: translateY(-100px);
+  color: white;
+  font-size: 30px;
+
+}
+
+#product-1-img {
+  background-image: url("../data/images/background-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 150px;
+
+}
+
+.facilities {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#facilities-img {
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+#background-1-img {
+  background-image: url("../data/images/background-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+#facilities-img-caption {
+  font-size: 12px;
+}
+
+td {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+/*newsletter.html*/
+/*newsletter.html*/
+/*newsletter.html*/
+
+.text-input {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#background-2-img {
+  background-image: url("../data/images/background-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  margin: 0px;
+}
+
+.newsletter-heading {
+  margin: 150px 150px 0px 150px;
+  padding: 20px;
+  background-color: white;
+  transform: translateY(-500px);
+}
+
+.newsletter-page {
+  margin-bottom: -400px;
 }
